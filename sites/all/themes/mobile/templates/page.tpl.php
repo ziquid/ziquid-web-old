@@ -46,7 +46,7 @@
   
       <?php print render($page['content']); ?>
   
-      <?php if (FALSE /*$breadcrumb -- jwc 18Sep2012*/): ?>
+      <?php if ($breadcrumb): ?>
         <div id="breadcrumb"><?php print $breadcrumb; ?></div>
       <?php endif; ?>
     

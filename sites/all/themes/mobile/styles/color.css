@@ -1,12 +1,12 @@
 /* COLORS */
 
 body {
-  color: white;
-  background: #292929;
+  color: #000;
+  background: #eee;
 }
 
 #wrapper {
-  background: #292929;
+  background: #fff;
 }
 
 #supplementary, #navigation li a {

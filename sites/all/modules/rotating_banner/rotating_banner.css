@@ -52,14 +52,12 @@
 }
 
 .rb-textbox-type-header {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: bold;
-  margin-bottom: 1em;
 }
 
 .layout-wrapper {
-  font-size: 18px;
-  line-height: 28px;
+  line-height: 1.5em;
   position: absolute;
 }
 
