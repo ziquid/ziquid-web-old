@@ -39,9 +39,11 @@ projects[ds][version] = "2.14"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.7"
 
+projects[features][subdir] = "contrib"
 projects[features][version] = "2.10"
 
-projects[media][version] = "1.5"
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-beta2"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
@@ -51,13 +53,17 @@ projects[google_analytics][version] = "2.2"
 
 projects[jcarousel][version] = "2.7"
 
-projects[lightbox2][version] = "1.0-beta1"
+projects[lightbox2][subdir] = "contrib"
+projects[lightbox2][version] = "2.0"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.4"
 
 projects[master][subdir] = "contrib"
 projects[master][version] = "2.0-beta4"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.0-beta1"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.14"
