@@ -30,7 +30,7 @@ $conf['master_modules'] = array(
     'pathauto',
     'php',
     'rdf',
-    'remove_ron',
+//     'remove_ron',
     'rotating_banner',
     'strongarm',
     'subpathauto',
