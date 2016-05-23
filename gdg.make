@@ -33,9 +33,6 @@ projects[diff][version] = "3.2"
 
 projects[draggableviews][version] = "2.1"
 
-projects[ds][subdir] = "contrib"
-projects[ds][version] = "2.14"
-
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.7"
 
@@ -50,6 +47,11 @@ projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.2"
+
+projects[panels][version] = "3.5"
+
+projects[imagecache_token][subdir] = "contrib"
+projects[imagecache_token][version] = "1.0-rc2"
 
 projects[jcarousel][version] = "2.7"
 
@@ -70,8 +72,6 @@ projects[metatag][version] = "1.14"
 
 projects[mobile_theme][version] = "1.2"
 
-projects[panels][version] = "3.5"
-
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
@@ -88,15 +88,24 @@ projects[subpathauto][version] = "1.3"
 
 projects[token][version] = "1.6"
 
+projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = "3.2"
+
 projects[video_embed_field][subdir] = "contrib"
 projects[video_embed_field][version] = "2.0-beta11"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.13"
 
-projects[wysiwyg][version] = "2.2"
-
 ; Themes
 projects[mobile][version] = "2.0"
 
+
+; Libraries
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.9/ckeditor_4.5.9_full.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
 
