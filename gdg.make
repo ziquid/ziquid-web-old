@@ -19,8 +19,11 @@ projects[block_class][version] = "2.3"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 
-projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.17"
+; projects[ckeditor][subdir] = "contrib"
+; projects[ckeditor][version] = "1.17"
+
+projects[ckeditor_media][subdir] = "contrib"
+projects[ckeditor_media][version] = "2.0-beta2"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
@@ -41,6 +44,10 @@ projects[features][version] = "2.10"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-beta2"
+
+projects[fontyourface][subdir] = "contrib"
+projects[fontyourface][version] = "2.8"
+projects[fontyourface][patch][] = "./patches/fontyourface-wysiwyg.patch"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
@@ -96,6 +103,9 @@ projects[video_embed_field][version] = "2.0-beta11"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.13"
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = "2.x-dev"
 
 ; Themes
 projects[mobile][version] = "2.0"

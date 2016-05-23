@@ -10,12 +10,15 @@ $conf['master_modules'] = array(
     'auto_nodetitle',
     'block_class',
     'blog',
-    'ckeditor',
+//     'ckeditor',
+    'ckeditor_media',
     'contact',
     'contextual',
     'date',
     'draggableviews',
     'features',
+    'fontyourface_ui',
+    'fontyourface_wysiwyg',
     'globalredirect',
     'googleanalytics',
     'imagecache_token',
@@ -39,8 +42,10 @@ $conf['master_modules'] = array(
     'taxonomy',
     'tracker',
     'transliteration',
+    'typekit_api',
     'update',
     'video_embed_field',
+    'wysiwyg',
 /*
     'adsense',
     'adsense_managed',
@@ -58,8 +63,6 @@ $conf['master_modules'] = array(
     'feeds',
     'feeds_tamper',
     'field_group',
-    'fontyourface_ui',
-    'fontyourface_wysiwyg',
     'geshifield',
     'htmlpurifier',
     'job_scheduler',
@@ -80,7 +83,6 @@ $conf['master_modules'] = array(
     'taxonomy_menu',
     'twitter_actions',
     'twitter_post',
-    'typekit_api',
     'typogrify',
     'xmlsitemap',
     'xmlsitemap_engines',
@@ -127,7 +129,7 @@ $conf['master_modules'] = array(
 );
 $conf['master_uninstall_blacklist'] = array(
   'base' => array(
-    0 => 'ckeditor',
+//     0 => 'ckeditor',
   ),
 );
 $conf['master_removable_blacklist'] = array(

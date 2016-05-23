@@ -1,0 +1,61 @@
+diff -Naur fontyourface/fontyourface.module fontyourface.patched/fontyourface.module
+--- fontyourface/fontyourface.module	2013-04-28 20:10:22.000000000 -0400
++++ fontyourface.patched/fontyourface.module	2016-05-23 16:55:16.000000000 -0400
+@@ -257,7 +257,7 @@
+ /**
+  * Gets fonts, defaults to all enabled.
+  */
+-function fontyourface_get_fonts($where = "enabled = 1 AND css_selector != ''", $order_by = 'name ASC') {
++function fontyourface_get_fonts($where = "enabled = 1 ", $order_by = 'name ASC') {
+ 
+   $fonts = array();
+ 
+diff -Naur fontyourface/modules/fontyourface_wysiwyg/plugins/fontyourface/fontyourface.js fontyourface.patched/modules/fontyourface_wysiwyg/plugins/fontyourface/fontyourface.js
+--- fontyourface/modules/fontyourface_wysiwyg/plugins/fontyourface/fontyourface.js	2013-04-28 20:10:22.000000000 -0400
++++ fontyourface.patched/modules/fontyourface_wysiwyg/plugins/fontyourface/fontyourface.js	2016-05-23 17:00:01.000000000 -0400
+@@ -14,7 +14,7 @@
+    */
+   invoke: function(data, settings, instanceId) {
+ 
+-    var button = $('#cke_' + instanceId + ' .cke_button_fontyourface');
++    var button = $('#cke_' + instanceId + ' .cke_button__fontyourface');
+     var position = button.offset();
+     var fontSelect = $('<div id="' + instanceId + '_fontyourface-select" class="fontyourface-select"><ul><li data-fid="0">-- NONE --</li></ul></div>');
+ 
+@@ -28,7 +28,7 @@
+       $('<li data-fid="' + font.fid + '">' + font.name + '</li>').appendTo(fontSelect.find('ul'));
+ 
+     } // for
+-    
++
+     fontSelect.find('li').click(function() {
+ 
+       var li = $(this);
+@@ -55,13 +55,14 @@
+       div.remove();
+ 
+     });
+-    
++
+     fontSelect.css({
+-      'position': 'absolute', 
+-      'top': position.top + button.height(), 
++      'position': 'absolute',
++      'top': position.top + button.height(),
+       'left': position.left,
+       'border': '1px #999 solid',
+-      'background': '#fff'
++      'background': '#fff',
++      'z-index': 100000
+     });
+     fontSelect.find('ul').css({
+       'list-style': 'none',
+@@ -75,7 +76,7 @@
+       .hover(
+         function() {
+           $(this).css('background', '#ccc');
+-        }, 
++        },
+         function() {
+           $(this).css('background', '#fff');
+         }
