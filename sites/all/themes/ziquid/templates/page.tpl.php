@@ -85,6 +85,11 @@
  * @see html.tpl.php
  */
 ?>
+<?php if (isset($field_css)): ?>
+  <style media="screen" type="text/css">
+    <?php print render($field_css); ?>
+  </style>
+<?php endif; ?>
 <div id="page-wrapper"><div id="page">
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
