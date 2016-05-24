@@ -77,6 +77,9 @@ projects[media][version] = "2.0-beta1"
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.14"
 
+projects[node_clone][subdir] = "contrib"
+projects[node_clone][version] = "1.0"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
@@ -104,6 +107,9 @@ projects[views][version] = "3.13"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
+
+projects[xmlsitemap][subdir] = "contrib"
+projects[xmlsitemap][version] = "2.2"
 
 ; Themes
 projects[mobile][version] = "2.0"

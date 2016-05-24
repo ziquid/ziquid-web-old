@@ -32,6 +32,7 @@ $conf['master_modules'] = array(
     'metatag_google_plus',
     'metatag_opengraph',
     'metatag_twitter_cards',
+    'node_clone',
     'page_manager',
     'panels_node',
     'pathauto',
@@ -49,6 +50,10 @@ $conf['master_modules'] = array(
     'update',
     'video_embed_field',
     'wysiwyg',
+    'xmlsitemap',
+    'xmlsitemap_engines',
+    'xmlsitemap_menu',
+    'xmlsitemap_node',
 /*
     'adsense',
     'adsense_managed',
@@ -87,10 +92,7 @@ $conf['master_modules'] = array(
     'twitter_actions',
     'twitter_post',
     'typogrify',
-    'xmlsitemap',
-    'xmlsitemap_engines',
-    'xmlsitemap_menu',
-    'xmlsitemap_node',
+
 
 // GDG modules
     'basic_config',
