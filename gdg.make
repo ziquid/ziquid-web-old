@@ -77,8 +77,6 @@ projects[media][version] = "2.0-beta1"
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.14"
 
-projects[mobile_theme][version] = "1.2"
-
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
