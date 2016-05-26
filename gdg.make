@@ -26,7 +26,7 @@ projects[ckeditor_media][subdir] = "contrib"
 projects[ckeditor_media][version] = "2.0-beta2"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.9"
+projects[date][version] = "2.10-rc1"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.5"
