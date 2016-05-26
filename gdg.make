@@ -47,7 +47,7 @@ projects[file_entity][version] = "2.0-beta2"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
-projects[fontyourface][patch][] = "./patches/fontyourface-wysiwyg.patch"
+projects[fontyourface][patches][0] = "./patches/fontyourface-wysiwyg.patch"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
@@ -80,8 +80,17 @@ projects[metatag][version] = "1.14"
 projects[node_clone][subdir] = "contrib"
 projects[node_clone][version] = "1.0"
 
+projects[noindex_external_links][subdir] = "contrib"
+projects[noindex_external_links][version] = "2.0-rc1"
+
+projects[oauth][subdir] = "contrib"
+projects[oauth][version] = "3.2"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
+
+projects[redirect][subdir] = "contrib"
+projects[redirect][version] = "1.0-rc3"
 
 projects[rotating_banner][version] = "2.x-dev"
 
@@ -99,6 +108,9 @@ projects[token][version] = "1.6"
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
 
+projects[twitter][subdir] = "contrib"
+projects[twitter][version] = "5.11"
+
 projects[video_embed_field][subdir] = "contrib"
 projects[video_embed_field][version] = "2.0-beta11"
 
@@ -109,7 +121,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 
 ; Themes
 projects[mobile][version] = "2.0"
