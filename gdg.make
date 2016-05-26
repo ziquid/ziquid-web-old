@@ -47,7 +47,7 @@ projects[file_entity][version] = "2.0-beta2"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
-projects[fontyourface][patches][0] = "./patches/fontyourface-wysiwyg.patch"
+projects[fontyourface][patch][] = "./patches/fontyourface-wysiwyg.patch"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"

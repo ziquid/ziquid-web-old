@@ -912,8 +912,10 @@ ul.links {
 #footer {
   letter-spacing: 0.2px;
   margin-top: 30px;
+/*
   border-top: 1px solid #555;
   border-color: rgba(255, 255, 255, 0.15);
+*/
 }
 #footer .region {
   margin-top: 20px;
