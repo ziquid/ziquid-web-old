@@ -159,7 +159,7 @@ function ziquid_field__taxonomy_term_reference($variables) {
 function ziquid_preprocess_page(&$vars) {
 
   if (isset($vars['node']) && ($vars['node']->type == 'page')
-  && (isset($vars['node']->field_css[LANGUAGE_NONE]))) {
+  && (isset($vars['node']->field_css[LANGUAGE_NONE][0]))) {
 
     $vars['field_css'] =
       $vars['node']->field_css[LANGUAGE_NONE][0]['value'];
