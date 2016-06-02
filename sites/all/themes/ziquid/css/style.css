@@ -1066,8 +1066,8 @@ div.messages {
   font-size: 0.929em;
 }
 .breadcrumb a[href="/"] {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   background: url(/sites/default/files/ziquid_32x32.png) top left no-repeat;
   font-size: 0px;
   display: inline-block;
