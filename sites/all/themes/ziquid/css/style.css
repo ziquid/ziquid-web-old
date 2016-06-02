@@ -1055,6 +1055,15 @@ div.messages {
 .breadcrumb {
   font-size: 0.929em;
 }
+.breadcrumb a[href="/"] {
+  width: 64px;
+  height: 64px;
+  background: url(/sites/default/files/ziquid_64x64.png) top left no-repeat;
+  font-size: 0px;
+  display: inline-block;
+  border-radius: 50px;
+  border: 1px solid blueviolet;
+}
 
 /* -------------- User Profile   -------------- */
 
