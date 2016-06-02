@@ -834,6 +834,16 @@ ul.links {
 
 /* ------------------ Footer ------------------ */
 
+#footer a[href="http://gdgwebworks.com/"] {
+  width: 86px;
+  height: 40px;
+  background: url(../images/gdg-logo-small.png) top left no-repeat;
+  font-size: 0px;
+  display: inline-block;
+/*  border-radius: 50px;
+  border: 1px solid blueviolet; */
+}
+
 #footer-wrapper {
   color: #c0c0c0;
   color: rgba(255, 255, 255, 0.65);
@@ -1058,7 +1068,7 @@ div.messages {
 .breadcrumb a[href="/"] {
   width: 64px;
   height: 64px;
-  background: url(/sites/default/files/ziquid_64x64.png) top left no-repeat;
+  background: url(/sites/default/files/ziquid_32x32.png) top left no-repeat;
   font-size: 0px;
   display: inline-block;
   border-radius: 50px;
