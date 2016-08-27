@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Core
-projects[drupal][version] = "7.43"
+projects[drupal][version] = "7.50"
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
@@ -17,7 +17,7 @@ projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.3"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.10"
 
 ; projects[ckeditor][subdir] = "contrib"
 ; projects[ckeditor][version] = "1.17"
@@ -43,7 +43,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "2.10"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-beta2"
+projects[file_entity][version] = "2.0-beta3"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
@@ -53,9 +53,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.2"
-
-projects[panels][version] = "3.5"
+projects[google_analytics][version] = "2.3"
 
 projects[imagecache_token][subdir] = "contrib"
 projects[imagecache_token][version] = "1.0-rc2"
@@ -63,7 +61,7 @@ projects[imagecache_token][version] = "1.0-rc2"
 projects[jcarousel][version] = "2.7"
 
 projects[lightbox2][subdir] = "contrib"
-projects[lightbox2][version] = "2.0"
+projects[lightbox2][version] = "2.6"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.4"
@@ -72,10 +70,10 @@ projects[master][subdir] = "contrib"
 projects[master][version] = "2.0-beta4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-beta1"
+projects[media][version] = "2.0-beta2"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.14"
+projects[metatag][version] = "1.17"
 
 projects[node_clone][subdir] = "contrib"
 projects[node_clone][version] = "1.0"
@@ -85,6 +83,9 @@ projects[noindex_external_links][version] = "2.0-rc1"
 
 projects[oauth][subdir] = "contrib"
 projects[oauth][version] = "3.2"
+
+projects[panels][subdir] = "contrib"
+projects[panels][version] = "3.7"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
@@ -115,7 +116,7 @@ projects[video_embed_field][subdir] = "contrib"
 projects[video_embed_field][version] = "2.0-beta11"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
